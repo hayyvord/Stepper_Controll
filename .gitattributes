@@ -1,17 +1,24 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-
-# Custom for Visual Studio
-*.cs     diff=csharp
-
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+*.[Cc]ache
+*.csproj.user
+*.[Rr]e[Ss]harper*
+*.sln.cache
+*.suo
+*.user
+*.orig
+*.pidb
+*.userprefs
+.DS_Store
+deploy/
+build/
+[Bb]in/
+[Dd]ebug/
+[Oo]bj/
+[Rr]elease/
+_[Rr]e[Ss]harper.*/
+*.docstates
+*.tss
+*.ncrunchproject
+*.ncrunchsolution
+*.dotCover
+.htaccess
+deploy.config
